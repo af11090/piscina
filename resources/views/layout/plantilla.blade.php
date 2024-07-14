@@ -12,7 +12,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN: Head -->
     <head>
         <meta charset="utf-8">
-        <link href="/dist/images/logo.svg" rel="shortcut icon">
+        <link href="{{asset('/dist/images/logo.svg')}}" rel="shortcut icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Enigma admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
         <meta name="keywords" content="admin template, Enigma Admin Template, dashboard template, flat admin template, responsive admin template, web app">
@@ -20,7 +20,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <title>@yield('titulo')</title>
 
         <!-- BEGIN: CSS Assets-->
-        <link rel="stylesheet" href="/dist/css/app.css" />
+        <link rel="stylesheet" href="{{asset('/dist/css/app.css')}}" />
         <!-- END: CSS Assets-->
     </head>
     <!-- END: Head -->
@@ -29,7 +29,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <div class="mobile-menu md:hidden">
             <div class="mobile-menu-bar">
                 <a href="" class="flex mr-auto">
-                    <img alt="Midone - HTML Admin Template" class="w-6" src="/dist/images/logo.svg">
+                    <img alt="Midone - HTML Admin Template" class="w-6" src="{{asset('/dist/images/logo.svg')}}">
                 </a>
                 <a href="javascript:;" id="mobile-menu-toggler"> <i data-lucide="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
             </div>
@@ -582,7 +582,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="h-full flex items-center">
                 <!-- BEGIN: Logo -->
                 <a href="" class="logo -intro-x hidden md:flex xl:w-[180px] block">
-                    <img alt="Midone - HTML Admin Template" class="logo__image w-6" src="/dist/images/logo.svg">
+                    <img alt="Midone - HTML Admin Template" class="logo__image w-6" src="{{asset('/dist/images/logo.svg')}}">
                     <span class="logo__text text-white text-lg ml-3"> PISCINA </span> 
                 </a>
                 <!-- END: Logo -->
@@ -621,28 +621,28 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="mb-5">
                                 <a href="" class="flex items-center mt-2">
                                     <div class="w-8 h-8 image-fit">
-                                        <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/profile-1.jpg">
+                                        <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('dist/images/profile-1.jpg')}}">
                                     </div>
                                     <div class="ml-3">Robert De Niro</div>
                                     <div class="ml-auto w-48 truncate text-slate-500 text-xs text-right">robertdeniro@left4code.com</div>
                                 </a>
                                 <a href="" class="flex items-center mt-2">
                                     <div class="w-8 h-8 image-fit">
-                                        <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/profile-1.jpg">
+                                        <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/profile-1.jpg')}}">
                                     </div>
                                     <div class="ml-3">John Travolta</div>
                                     <div class="ml-auto w-48 truncate text-slate-500 text-xs text-right">johntravolta@left4code.com</div>
                                 </a>
                                 <a href="" class="flex items-center mt-2">
                                     <div class="w-8 h-8 image-fit">
-                                        <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/profile-13.jpg">
+                                        <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/profile-13.jpg')}}">
                                     </div>
                                     <div class="ml-3">John Travolta</div>
                                     <div class="ml-auto w-48 truncate text-slate-500 text-xs text-right">johntravolta@left4code.com</div>
                                 </a>
                                 <a href="" class="flex items-center mt-2">
                                     <div class="w-8 h-8 image-fit">
-                                        <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/profile-13.jpg">
+                                        <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/profile-13.jpg')}}">
                                     </div>
                                     <div class="ml-3">Sylvester Stallone</div>
                                     <div class="ml-auto w-48 truncate text-slate-500 text-xs text-right">sylvesterstallone@left4code.com</div>
@@ -651,28 +651,28 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="search-result__content__title">Products</div>
                             <a href="" class="flex items-center mt-2">
                                 <div class="w-8 h-8 image-fit">
-                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/preview-15.jpg">
+                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/preview-15.jpg')}}">
                                 </div>
                                 <div class="ml-3">Apple MacBook Pro 13</div>
                                 <div class="ml-auto w-48 truncate text-slate-500 text-xs text-right">PC &amp; Laptop</div>
                             </a>
                             <a href="" class="flex items-center mt-2">
                                 <div class="w-8 h-8 image-fit">
-                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/preview-15.jpg">
+                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/preview-15.jpg')}}">
                                 </div>
                                 <div class="ml-3">Nike Air Max 270</div>
                                 <div class="ml-auto w-48 truncate text-slate-500 text-xs text-right">Sport &amp; Outdoor</div>
                             </a>
                             <a href="" class="flex items-center mt-2">
                                 <div class="w-8 h-8 image-fit">
-                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/preview-10.jpg">
+                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/preview-10.jpg')}}">
                                 </div>
                                 <div class="ml-3">Oppo Find X2 Pro</div>
                                 <div class="ml-auto w-48 truncate text-slate-500 text-xs text-right">Smartphone &amp; Tablet</div>
                             </a>
                             <a href="" class="flex items-center mt-2">
                                 <div class="w-8 h-8 image-fit">
-                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/preview-14.jpg">
+                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/preview-14.jpg')}}">
                                 </div>
                                 <div class="ml-3">Oppo Find X2 Pro</div>
                                 <div class="ml-auto w-48 truncate text-slate-500 text-xs text-right">Smartphone &amp; Tablet</div>
@@ -689,7 +689,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="notification-content__title">Notifications</div>
                             <div class="cursor-pointer relative flex items-center ">
                                 <div class="w-12 h-12 flex-none image-fit mr-1">
-                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/profile-1.jpg">
+                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/profile-1.jpg')}}">
                                     <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
                                 </div>
                                 <div class="ml-2 overflow-hidden">
@@ -702,7 +702,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
                             <div class="cursor-pointer relative flex items-center mt-5">
                                 <div class="w-12 h-12 flex-none image-fit mr-1">
-                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/profile-1.jpg">
+                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/profile-1.jpg')}}">
                                     <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
                                 </div>
                                 <div class="ml-2 overflow-hidden">
@@ -715,7 +715,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
                             <div class="cursor-pointer relative flex items-center mt-5">
                                 <div class="w-12 h-12 flex-none image-fit mr-1">
-                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/profile-13.jpg">
+                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/profile-13.jpg')}}">
                                     <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
                                 </div>
                                 <div class="ml-2 overflow-hidden">
@@ -741,7 +741,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
                             <div class="cursor-pointer relative flex items-center mt-5">
                                 <div class="w-12 h-12 flex-none image-fit mr-1">
-                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="/dist/images/profile-2.jpg">
+                                    <img alt="Midone - HTML Admin Template" class="rounded-full" src="{{asset('/dist/images/profile-2.jpg')}}">
                                     <div class="w-3 h-3 bg-success absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
                                 </div>
                                 <div class="ml-2 overflow-hidden">
@@ -759,7 +759,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!-- BEGIN: Account Menu -->
                 <div class="intro-x dropdown w-8 h-8">
                     <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in scale-110" role="button" aria-expanded="false" data-tw-toggle="dropdown">
-                        <img alt="Midone - HTML Admin Template" src="dist/images/profile-4.jpg">
+                        <img alt="Midone - HTML Admin Template" src="{{asset('/dist/images/profile-4.jpg')}}">
                     </div>
                     <div class="dropdown-menu w-56">
                         <ul class="dropdown-content bg-primary/80 before:block before:absolute before:bg-black before:inset-0 before:rounded-md before:z-[-1] text-white">
@@ -1374,7 +1374,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- BEGIN: JS Assets-->
         <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=["your-google-map-api"]&libraries=places"></script>
-        <script src="/dist/js/app.js"></script>
+        <script src="{{asset('/dist/js/app.js')}}"></script>
         @yield('script')
         <!-- END: JS Assets-->
     </body>
